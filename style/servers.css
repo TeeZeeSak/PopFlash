@@ -1,0 +1,66 @@
+div.server-group{
+	margin-top: 30px;
+
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(21,21,21,0.1);
+}
+
+img.server-group{
+	padding-top: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+
+img.server-image{
+	width: 54px;
+	height: 54px;
+	margin-left: 5px;
+}
+
+p.server-hostname{
+	margin-top: -34px;
+    margin-left: 60px;
+    padding-bottom: 34px;
+}
+
+div.server{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+p.server-users{
+	margin-top: -64px;
+	margin-left: 95%;
+	padding-bottom: 34px;
+}
+
+p.server-ip{
+	margin-top: -75px;
+	margin-left: 50%;
+	padding-bottom: 34px;
+}
+
+td{
+	text-align: left;
+}
+
+th{
+	text-align: left;
+}
+
+a.server-action{
+	color: rgba(224,0,0,0.8);
+}
+
+th.special{
+	padding-left: 21px;
+}
+
+table{
+	margin-left: 20px;
+}

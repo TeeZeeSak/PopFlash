@@ -1,0 +1,922 @@
+div.userpanel{
+	position: absolute;	
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 28px;
+	background-color: rgba(8,8,8,0.6);
+}
+
+a.userpanel-user{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	
+	background-image: url(https://popfrag.eu/resources/images/background.png);
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
+
+a:active{
+	text-decoration: none;
+	color: black;
+}
+
+div.boxSuccess{
+	background-color: lime;
+    width: 100%;
+    height: 30px;
+}
+
+div.kontakt-user{
+	line-height: 50%;
+	font-size: 90%;
+	margin-bottom: 30px;
+
+}
+
+div.kontakt-user a{
+	color: #ababab;
+	
+}
+
+div.physical-info{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	color: white;
+	line-height: 50%;
+}
+
+p.provozovatel-info{
+	color: #bababa;
+	font-size: 80%;
+}
+
+div.physical-info a{
+	color: SteelBlue;
+}
+
+h1.kontakt-header{
+	color: white;
+	font-size: 110%;
+	margin-bottom: 20px;
+}
+
+p.success-info-text {
+    padding-top: 6px;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+a:visited{
+	text-decoration: none;
+	color: orange;
+}
+
+a:hover{
+	text-decoration: none;
+	color: orange;
+}
+
+a:link{
+	text-decoration: none;
+
+	color: orange;
+}
+
+div.login-panel{
+	width: 100%;
+	height: 40px;
+	background-color: #212121;
+	margin-top: -37px;
+}
+@import url('https://fonts.googleapis.com/css?family=Quantico&display=swap');
+div.login-vars{
+	display: inline-block;
+	white-space: nowrap;
+	width: 100%;
+}
+div.login-failure{
+	width: 100%;
+	height: 20px;
+	background-color: red;
+	margin-top: -94px;
+	display: none;
+}
+
+p.login-failure{
+	text-align: center;
+	margin-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+input.login-form{
+     padding: 5px;
+     font-size: 14px;
+     border-width: 1px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     border-radius: 0px;
+     box-shadow: 0px 0px 0px rgba(66,66,66,.0);
+     text-shadow: -50px 0px 0px rgba(66,66,66,.75);
+	 margin-top: -11px;
+	 margin-bottom: 5px;
+	 width: 100px;
+}
+
+a.login-panel-register{
+	color: SteelBlue;
+}
+
+input.login-form-button{
+	background-color: SteelBlue;
+	cursor: pointer;
+	color: white;
+	font-size:14px;
+	padding:6px;
+	width: 100px;
+	text-decoration:none;
+	border: 0;
+}
+
+
+
+p.login-form{
+	text-align: center;
+	margin-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+input.login-form:focus{
+	outline: none;
+}
+div.popfrag-user-menu{
+	font-size: 18px;
+	top: 35px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+p.login{
+	text-align: center;
+
+	font-size: 20px;
+	width: 10%;
+    display: inline-block;
+
+
+	color: white;
+	padding: 6px;
+	border: 0.5px solid SteelBlue;
+}
+
+div.user-action-box{
+	padding-top: 250px;
+	margin-left: calc(50% - 50vw);
+	margin-top: calc(50% - 50vw);
+	width: 99.58vw;
+
+}
+
+
+span.logo{
+	position: absolute;
+	font-size: 40px;
+	left: 50px;
+	top: 25px;
+	cursor: pointer;
+}
+
+
+
+div.menu-items-holder{
+	
+	margin-right: 50px;
+}
+
+div.flex{
+	position: absolute;
+	top: 760px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+div.content{
+	text-align: center;
+	max-width: 50%;
+	display: inline-block;
+	white-space: nowrap;
+	margin-right: 50px;
+	
+}
+p.news-header{
+	font-family: 'Militech';
+	letter-spacing: 1.5px;
+	font-size: 32px;
+	line-height: 36px;
+	color: white;
+}
+
+p.news-date{
+	margin-top: -25px;
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+
+img.news-tag{
+	margin-bottom: -6.75px;
+}
+
+p.news-intro{
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	line-height: 145%;
+	font-size: 15px;
+}
+
+div.sidebar{
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 10px;
+	margin-top: 32px;
+}
+
+img.sidebar-image{
+	width: 312px;
+	height: 96px;
+	filter: brightness(80%);
+}
+img.sidebar-image-ad{
+	width: 300px;
+	height: 86px;
+	filter: brightness(80%);
+	
+}
+
+img.sidebar-image:hover{
+	filter: brightness(100%);
+}
+img.sidebar-image-ad:hover{
+	filter: brightness(100%);
+}
+
+div.news-spacionator{
+	margin-left: 20px;
+	margin-right: 10px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	hyphens: auto;
+	white-space: normal;
+	
+}
+
+img.news-image{
+	border: 0;
+	background-color: orange;
+}
+
+div.news-content{
+	
+	padding-top: 5px;
+	
+	margin-top: 0;
+	text-align: left;
+	margin-left: 20px;
+	color: #bababa !important;
+	width: 529px;
+}
+@font-face {
+    font-family: 'Militech';
+	src: url('https://popfrag.eu/resources/fonts/militech_r_2019-04-13.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+
+}
+hr.news-spacer{
+	border: 0;
+	border-top: 1px solid #4b638430;
+	margin: 0;
+	margin-left: 37px;
+	padding-bottom: 10px;
+	width: 55%;
+}
+
+hr.servers-spacer{
+	border: 0;
+	border-top: 1px solid #4b638430;
+	margin: 0;
+	margin-left: 1%;
+	padding-bottom: 10px;
+	width: 98%;
+}
+hr.sidebar-splitter{
+	border: 0;
+	border-top: 1px solid #4b638430;
+	margin: 0;
+	margin-left: 0px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+div.news-holder{
+	position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top: 450px;
+    background-color: rgba(22, 22, 22, 0.95);
+    width: 940px;
+    min-height: 600px;
+}
+
+div.kontakt-holder{
+	position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top: 450px;
+    background-color: rgba(22, 22, 22, 0.95);
+    width: 940px;
+    min-height: 600px;
+}
+
+div.header-image{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 424px;
+    height: 160px;
+	transform: translateX(-50%);
+	background-image: url(https://popfrag.eu/resources/images/header.png);
+	background-position: center;
+}
+
+div.servers-holder{
+	position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top: 450px;
+    background-color: rgba(22, 22, 22, 0.95);
+    width: 940px;
+    min-height: 600px;
+}
+
+
+div.servers{
+	width: 100%;
+	
+}
+
+
+
+div.head-section{
+	background-color: rgba(22, 22, 22, 0.95);
+    width: 940px;
+    height: 50px;
+    position: absolute;
+    top: 24px;
+    left: 0px;
+    z-index: 100;
+}
+div.header{
+	position: absolute;
+	top: 465px;
+	z-index: 999999999999999;
+	width: 940px !important;
+	
+}
+div.userpanel{
+	position: absolute;	
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 28px;
+	background-color: rgba(8,8,8,0.6);
+}
+
+a.userpanel-user{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	
+	background-image: url(https://popfrag.eu/resources/images/background.png);
+}
+
+a:link{
+	text-decoration: none;
+	color: orange;
+}
+
+div.boxSuccess{
+	background-color: lime;
+    width: 100%;
+    height: 30px;
+}
+p.success-info-text {
+    padding-top: 6px;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+
+* {
+	-webkit-transition: all 0.2s ease !important;
+}
+div.login-panel{
+	width: 100%;
+	height: 40px;
+	background-color: rgba(22, 22, 22, 0.95);
+	margin-top: -17px;
+}
+
+div.login-vars{
+	display: inline-block;
+	white-space: nowrap;
+	width: 100%;
+}
+div.login-failure{
+	width: 100%;
+	height: 20px;
+	background-color: red;
+	margin-top: -93px;
+	display: none;
+}
+
+p.login-failure{
+	text-align: center;
+	margin-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+input.login-form{
+     padding: 5px;
+     font-size: 14px;
+     border-width: 1px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     border-radius: 0px;
+     box-shadow: 0px 0px 0px rgba(66,66,66,.0);
+     text-shadow: -50px 0px 0px rgba(66,66,66,.75);
+	 margin-top: -11px;
+	 margin-bottom: 5px;
+	 width: 100px;
+}
+
+a.login-panel-register{
+	color: SteelBlue;
+}
+
+input.login-form-button{
+	background-color: SteelBlue;
+	cursor: pointer;
+	color: white;
+	font-size:14px;
+	padding:6px;
+	width: 100px;
+	text-decoration:none;
+	border: 0;
+}
+
+
+
+p.login-form{
+	text-align: center;
+	margin-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+input.login-form:focus{
+	outline: none;
+}
+div.popfrag-user-menu{
+	width: 100%;
+	height: 32px;
+	background-color: rgba(22, 22, 22, 0.95);
+	margin-top: -44px;
+}
+
+a.panel-username{
+	padding-top: 5px;
+	margin-right: 40px;
+	float:right;
+}
+a.panel-admin{
+	float: left;
+	padding-top: 5px;
+	margin-left: 40px;
+}
+
+
+p.login{
+	text-align: center;
+
+	font-size: 20px;
+	width: 10%;
+    display: inline-block;
+
+
+	color: white;
+	padding: 6px;
+	border: 0.5px solid SteelBlue;
+}
+
+div.user-action-box{
+	padding-top: 250px;
+	margin-left: calc(50% - 50vw);
+	margin-top: calc(50% - 50vw);
+	width: 99.58vw;
+
+}
+
+
+span.logo{
+	position: absolute;
+	font-size: 40px;
+	left: 50px;
+	top: 25px;
+	cursor: pointer;
+}
+
+
+
+div.menu-items-holder{
+	
+	margin-right: 50px;
+}
+
+div.flex{
+	position: absolute;
+	top: 760px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+div.content{
+	text-align: center;
+	max-width: 50%;
+	display: inline-block;
+	white-space: nowrap;
+	margin-right: 50px;
+	
+}
+p.news-header{
+	font-family: 'Militech';
+	letter-spacing: 1.5px;
+	font-size: 32px;
+	line-height: 36px;
+	color: white;
+}
+
+p.news-date{
+	margin-top: -25px;
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+
+img.news-tag{
+	margin-bottom: -6.75px;
+}
+
+p.news-intro{
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	line-height: 145%;
+	font-size: 15px;
+}
+
+div.sidebar{
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 10px;
+	margin-top: 32px;
+}
+
+img.sidebar-image{
+	width: 312px;
+	height: 96px;
+	filter: brightness(80%);
+}
+img.sidebar-image-ad{
+	width: 300px;
+	height: 86px;
+	filter: brightness(80%);
+	
+}
+
+img.sidebar-image:hover{
+	filter: brightness(100%);
+}
+img.sidebar-image-ad:hover{
+	filter: brightness(100%);
+}
+
+div.news-spacionator{
+	margin-left: 20px;
+	margin-right: 10px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	hyphens: auto;
+	white-space: normal;
+	
+}
+
+img.news-image{
+	border: 0;
+	background-color: orange;
+}
+
+div.news-content{
+	
+	padding-top: 5px;
+	
+	margin-top: 0;
+	text-align: left;
+	margin-left: 20px;
+	color: #bababa !important;
+	width: 529px;
+}
+
+hr.kontakt{
+	width: 50%;
+	margin-left: -2px;
+	border-color: rgba(200,200,200,0.6);
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+div.kontakt-content{
+	
+	padding-top: 5px;
+	margin-top: 0;
+	text-align: left;
+	margin-left: 20px;
+	color: #bababa !important;
+	width: 529px;
+}
+@font-face {
+    font-family: 'Militech';
+	src: url('https://popfrag.eu/resources/fonts/militech_r_2019-04-13.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+
+}
+hr.news-spacer{
+	border: 0;
+	border-top: 1px solid #4b638430;
+	margin: 0;
+	margin-left: 37px;
+	padding-bottom: 10px;
+	width: 55%;
+}
+
+hr.sidebar-splitter{
+	border: 0;
+	border-top: 1px solid #4b638430;
+	margin: 0;
+	margin-left: 0px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+
+
+
+table{
+	width: 100%;
+	background-color: rgba(25,25,25,1);
+}
+
+#serversheader{
+	padding: 10px;
+	color: white;
+}
+
+div.server{
+	display: inline-block;
+	width: 100%;
+	margin-left: 10px;
+	color: #bababa;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+a.vip{
+	color: gold;
+	cursor: hand;
+}
+
+a.statistics{
+	color: #bababa;
+	cursor: hand;
+}
+
+a.banlist{
+	color: #bababa;
+	cursor: hand;
+}
+div.type{
+	display: inline-block;
+	background-size: 19px 19px;
+	background-repeat: no-repeat;
+    width: 31px;
+    margin-bottom: -13px;
+	height: 28px;
+	user-select: none;
+}
+
+#ts3{
+	background-image: url(https://popfrag.eu/resources/images/server-ts3.png);
+}
+
+#csgo{
+	background-image: url(https://popfrag.eu/resources/images/csgo.png);
+}
+
+div.ip{
+	display: inline-block;
+	width: 185px;
+}
+div.players{
+	display: inline-block;
+	width: 85px;
+    color: #55af2d;
+}
+div.map{
+	display: inline-block;
+	width: 155px;
+}
+
+div.actions{
+	display: inline-block;
+	text-align: right;
+    width: 240px;
+}
+
+div.name{
+	display: inline-block;
+	width: 200px;
+}
+
+img.servers{
+	width: 32px;
+	height: 32px;
+	margin-left: 10px;
+}
+
+div.header{
+	position: absolute;
+	top: 375px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999999999999999;
+    width: 940px !important;
+}
+
+#navigation li{
+	float: left;
+    display: block;
+    position: relative;
+    z-index: 500;
+    margin-right: -6px;
+    padding-bottom: 10px;
+	
+}
+
+div.content-holder{
+	position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    background-color: rgba(22, 22, 22, 0.95);
+    width: 940px;
+}
+
+#navigation{
+    position: absolute;
+    top: 14px;
+    left: 41px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 20px;
+	font-family: Militech;
+}
+
+a.head-section-item{
+	color: white;
+	margin-right: 28px;
+}
+
+a.head-section-item:hover{
+	color: orange;
+}
+
+/*
+User dropdown menu
+*/
+
+/* The dropdown container */
+.dropdown {
+	float: right;
+	padding-top: 5px;
+	margin-right: 40px;
+	float:right;
+	cursor: pointer !important;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	background-color: inherit;
+	font-family: inherit; /* Important for vertical align on mobile phones */
+	margin: 0; /* Important for vertical align on mobile phones */
+	cursor: pointer !important;
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	font-size: 90%;
+	top: -129px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:99999;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	//display: block;
+}
+
+div.footer{
+	display: none;
+}
+
+img.fakaheda{
+	width: 420px;
+	height: 100px;
+}
+
+div.fakaheda{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+}
+
+img.nonsteam{
+	position: absolute;
+	top: 40px;
+}

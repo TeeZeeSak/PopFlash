@@ -1,0 +1,208 @@
+h1{
+    color: #fff;
+    text-align: center;
+}
+
+body{
+    background-color: #1e202f;
+    font-family: 'Roboto Condensed';
+}
+
+div.headerText{
+    background-color: #323150;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid #3c3b5b;
+}
+
+div.content{
+    position: absolute;
+    width: 100%;
+    top: 200px;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+div.centerPanel{
+    background-color: #323150;
+    border-radius: 2px;
+    border-top: 5px solid #f92552;
+    border-right: 1px solid #3c3b5b;
+    border-left: 1px solid #3c3b5b;
+    border-bottom: 1px solid #3c3b5b;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}
+
+div.contentInfoLeft{
+    display: inline-block;
+    white-space:nowrap;
+    width: 400px;
+    text-align: center;
+    border-right: 1px solid #3c3b5b;
+    height: 81%;
+}
+
+div.contentInfoRight{
+    margin-top: -486px;
+    white-space:nowrap;
+    width: 400px;
+    text-align: center;
+    height: 81%;
+    float: right;
+}
+
+#crossmark{
+    color: red;
+    display:inline-block;
+    white-space: nowrap;
+    text-align: left;
+}
+
+#checkmark{
+    color: lime;
+    display:inline-block;
+    white-space: nowrap;
+    text-align: left;
+}
+
+h2.navstevnik{
+    color: #fff;
+    margin-top: 60px;
+}
+
+h2.VIP{
+    color: gold;
+    font-weight:1000;
+    margin-top: 60px;
+}
+
+
+
+h2:before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -46px;
+    width: 77%;
+    border-bottom: 1px solid #f92552;
+
+}
+
+table{
+    width: 100%;
+    font-size: 20px;
+    margin-left: 34px;
+}
+
+td{
+    width: 10%;
+}
+#item{
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+    padding: 3px;
+}
+
+div.aktivovat{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+button{
+    padding: 5px;
+    border: 1px solid #ff4774;
+    font-size: 25px;
+    cursor: pointer;
+    width: 200px;
+    background-color: #f9255321;
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+    transition: background-color 0.5s;
+    user-select: none;
+}
+
+button:hover{
+    background-color: #f92552;
+}
+
+#tooltip{
+    color: #ccc;
+    margin-top: -30px;
+    text-align: right;
+    margin-right: 30px;
+    float: right;
+    transition: color 0.2s;
+
+}
+#tooltip:hover{
+    color: SteelBlue;
+    cursor: pointer;
+}
+
+#tooltipPanel{
+    display: none;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 81px;
+    padding-bottom: 30px;
+}
+
+span.closeWindow{
+    color: #b173ec7a;
+    position: absolute;
+    right: 5px;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+span.tooltipInfo{
+    color: #fff;
+    text-align: left;
+    text-indent: 5px;
+    max-width: 100%;
+    overflow: hidden;
+    display: block;
+    font-size: .9vw;
+    padding: 5px;
+}
+
+div.tooltipContent{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.tooltipItem{
+    color: lime;
+}
+
+div.centerInfoPanel{
+    background-color: #323150;
+    border-radius: 2px;
+    border-top: 5px solid #f92552;
+    border-right: 1px solid #3c3b5b;
+    border-left: 1px solid #3c3b5b;
+    border-bottom: 1px solid #3c3b5b;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}
+
+a.tooltipInfo{
+    color: white !important;
+    margin-left: 10px;
+    font-size: 0.9vw;
+}

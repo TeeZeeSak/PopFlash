@@ -1,0 +1,56 @@
+* {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+div.top{
+    position: absolute;
+    top: 64px;
+    width: 100%;
+}
+
+div.top img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+div.top p{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 2.3em;
+}
+
+body{
+    background-color: #ffffffc5;
+}
+
+div.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #8b8b8b3a;
+    border-bottom: 1px solid #00000044;
+}
+
+div.header .left{
+    font-size: 1.5em;
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+
+
+div.csgoall{
+    background-image: url(https://popfrag.eu/vip/images/vsechny-servery-prehover.svg);
+    background-position: center;
+    background-size: auto;
+    width: 200px;
+    height: 200px;
+}
+
+div.csgoall:hover{
+    background-image: url(https://popfrag.eu/vip/images/vsechny-servery-hover.svg);
+}

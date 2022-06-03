@@ -1,0 +1,24 @@
+div.clanek{
+	width: 50%;
+	background-color: rgba(255,255,224,0.3);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+
+p.clanek-header{
+	font-size: 30px;
+	margin-bottom: -15px;
+}
+
+p.clanek-text{
+	display: inline-block;
+	text-align: justify;
+}
+
+img{
+	float: left;
+	margin-right: 5px;
+}
